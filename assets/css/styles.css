@@ -1,0 +1,15 @@
+h1 {
+	text-align: center;
+};
+
+.img-thumbnail {
+	/*max-height: 20%;*/
+	max-width: 20%;
+};
+
+.pad {
+	padding-bottom: 200px;
+};
+/*button {
+	display: block;
+};*/

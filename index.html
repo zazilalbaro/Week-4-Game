@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Coin Collector Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+
+
+</head>
+<body>
+	<div class="container">
+		<h1 class="jumbotron">Coin Collector Game</h1>
+		
+		<div class="row pad">
+			<div class="col-md-3">
+				<button id="newGame">New Game</button>
+				</br>
+				</br>
+				<h2>Wins: 0</h2>
+				<h2>Losses: 0</h2>
+			</div>
+			<div class="col-md-9">
+				<h2>Rules</h2>
+				<ul>
+					<li>You will be given a random number at the start of the game.</li>
+					<li>There are four coins below. By clicking on a coin you will add a specific amount of monetary points to your total score.</li>
+					<li>You win the game by matching your total score to the random number and you lose the game if your total score surpasses the random number.</li>
+					<li>The value of each coins is hidden fom you until you click on it.</li>
+					<li>Each new game changes the values of the coins.</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-9">
+				<img src="assets/images/coin1.jpg" class="img img-thumbnail">
+				<img src="assets/images/coin2.jpg" class="img img-thumbnail">
+				<img src="assets/images/coin3.jpg" class="img img-thumbnail">
+				<img src="assets/images/coin4.jpg" class="img img-thumbnail">
+			</div>
+			<div class="col-md-3">
+				<h2>Target Score:</h2>
+				<div id="numberTarget"></div>
+				</br>
+				</br>
+				<h2>Your Total Score:</h2>
+				<div id="totalScore"></div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
