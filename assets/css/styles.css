@@ -1,15 +1,19 @@
-h1 {
-	text-align: center;
-};
 
 .img-thumbnail {
 	/*max-height: 20%;*/
-	max-width: 20%;
-};
+	width: 100%;
+}
 
 .pad {
-	padding-bottom: 200px;
-};
-/*button {
-	display: block;
-};*/
+	padding: 20px 15px;
+}
+
+.numbers {
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ctr {
+	text-align: center;
+}
