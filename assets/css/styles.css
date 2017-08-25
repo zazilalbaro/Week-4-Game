@@ -9,11 +9,18 @@
 }
 
 .numbers {
-	color: blue;
 	font-weight: bold;
 	text-align: center;
 }
 
 .ctr {
 	text-align: center;
+}
+
+#totalScore {
+	color: green;
+}
+
+#targetNum {
+	color: blue;
 }
